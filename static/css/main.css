@@ -542,7 +542,7 @@ a, a:visited, a:link {
     padding: 0;
     text-align: center;
     width: 250px;
-    margin-right: 60px;
+    margin-right: 100px;
   }
 
 
@@ -567,13 +567,15 @@ a, a:visited, a:link {
   }
 
   .bgStatus .majorPills {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 18px;
+    height: auto;
   }
 
   .bgStatus .minorPills {
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 18px;
+    line-height: 18px;
+    height: auto;
   }
 
   #silenceBtn a {
@@ -596,6 +598,8 @@ a, a:visited, a:link {
     width: 250px;
   }
   .statusPills {
+    display: block;
+    margin-left: auto;
     font-size: 20px;
     line-height: 23px;
   }
@@ -603,13 +607,6 @@ a, a:visited, a:link {
   #currentTime {
     display: inline;
     vertical-align: middle;
-  }
-
-  .statusPills {
-    display: inline;
-    margin-left: auto;
-    font-size: 12px;
-    line-height: 13px;
   }
 
   .focus-range {
