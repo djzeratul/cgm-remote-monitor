@@ -528,10 +528,11 @@ a, a:visited, a:link {
   }
 
   .bgStatus {
-    float: none;
+    float: right;
     padding: 0;
     text-align: center;
     width: 250px;
+    margin-right: 60px;
   }
 
 
