@@ -451,13 +451,16 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 70px;
-    padding-top: 8px;
+    color: #808080;
+    font-size: 100px;
   }
-
+  .statusBox {
+    text-align: center;
+    width: 250px;
+  }
   .statusPills {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 23px;
   }
 
   .focus-range {
@@ -516,10 +519,17 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 50px;
+    color: #808080;
+    font-size: 100px;
+  }
+  .statusBox {
+    text-align: center;
     width: 250px;
   }
-}
+  .statusPills {
+    font-size: 20px;
+    line-height: 23px;
+  }
 
 @media (max-width: 1080px) {
   .primary {
@@ -578,12 +588,16 @@ a, a:visited, a:link {
   }
 
   .status {
-    padding-top: 0;
-    font-size: 20px;
+    color: #808080;
+    font-size: 100px;
   }
-
   .statusBox {
-    width: auto;
+    text-align: center;
+    width: 250px;
+  }
+  .statusPills {
+    font-size: 20px;
+    line-height: 23px;
   }
 
   #currentTime {
