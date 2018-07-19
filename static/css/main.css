@@ -541,8 +541,8 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 100px;
+    line-height: 78px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
