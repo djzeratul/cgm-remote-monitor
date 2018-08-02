@@ -14,36 +14,36 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
-
+ 
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
-
+ 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-
+ 
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-
+ 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
-
+ 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
-
+ 
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+ 
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
+ 
 .icon-volume:before { content: '\e800'; }
 .icon-plus:before { content: '\e801'; }
 .icon-edit:before { content: '\e802'; }
@@ -129,8 +129,8 @@ a, a:visited, a:link {
 }
 
 .bgStatus .currentBG {
-  font-size: 180px;
-  line-height: 140px;
+  font-size: 120px;
+  line-height: 100px;
   text-decoration: line-through;
   vertical-align: middle;
 }
@@ -417,9 +417,9 @@ a, a:visited, a:link {
   font-size: 12px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .bgStatus {
-    width: 320px;
+    width: 300px;
   }
 
   .bgButton {
@@ -427,8 +427,8 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 120px;
-    line-height: 100px;
+    font-size: 80px;
+    line-height: 80px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
@@ -451,16 +451,13 @@ a, a:visited, a:link {
   }
 
   .status {
-    color: #808080;
-    font-size: 100px;
+    font-size: 70px;
+    padding-top: 8px;
   }
-  .statusBox {
-    text-align: center;
-    width: 250px;
-  }
+
   .statusPills {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 15px;
+    line-height: 17px;
   }
 
   .focus-range {
@@ -480,9 +477,9 @@ a, a:visited, a:link {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 750px) {
   .bgStatus {
-    width: 320px;
+    width: 240px;
     padding: 0 0 20px 0;
   }
 
@@ -495,8 +492,8 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 100px;
-    line-height: 80px;
+    font-size: 70px;
+    line-height: 60px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
@@ -519,19 +516,12 @@ a, a:visited, a:link {
   }
 
   .status {
-    color: #808080;
-    font-size: 100px;
-  }
-  .statusBox {
-    text-align: center;
+    font-size: 50px;
     width: 250px;
   }
-  .statusPills {
-    font-size: 20px;
-    line-height: 23px;
-  }
+}
 
-@media (max-width: 1080px) {
+@media (max-width: 400px) {
   .primary {
     text-align: center;
     margin-bottom: 0;
@@ -542,7 +532,6 @@ a, a:visited, a:link {
     padding: 0;
     text-align: center;
     width: 250px;
-    margin-right: 60px;
   }
 
 
@@ -552,8 +541,8 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 100px;
-    line-height: 78px;
+    font-size: 70px;
+    line-height: 70px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
@@ -588,16 +577,12 @@ a, a:visited, a:link {
   }
 
   .status {
-    color: #808080;
-    font-size: 100px;
-  }
-  .statusBox {
-    text-align: center;
-    width: 250px;
-  }
-  .statusPills {
+    padding-top: 0;
     font-size: 20px;
-    line-height: 23px;
+  }
+
+  .statusBox {
+    width: auto;
   }
 
   #currentTime {
