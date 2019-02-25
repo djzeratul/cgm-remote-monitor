@@ -161,12 +161,10 @@
 			
 			// Restyle body bg, and make the "x minutes ago" visible too.
 			if (now - last > threshold) {
-				$('body').css('background-color', 'grey');
-				$('body').css('color', 'black');
+				$('body').css('color', 'white');
 				$('#staleTime').css('display', 'block');
 			} else {
 				$('#staleTime').css('display', 'none');
-				$('body').css('color', 'white');
 			}
 		}
 
